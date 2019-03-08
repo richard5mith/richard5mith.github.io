@@ -1,4 +1,11 @@
 title: Joshua Called Me
 description: A classic case for recruitment by the Soviets
-theme: jekyll-theme-cayman
 permalink: pretty
+
+# Jekyll
+paginate: 10
+highlighter: rouge
+plugins: [jekyll-paginate]
+timezone: Europe/London
+paginateLabel: page
+paginate_path: "page/:num"
