@@ -57,9 +57,8 @@ layout: htmlCompressor
   {% if site.google != "" %}<meta name="google-site-verification" content="{{ site.google }}">{% endif %}
 
   <!-- Favicon & RSS -->
-  {% feed_meta %}
   <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml">
 
   <!-- CSS & JS files -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/prod/style.min.css">
