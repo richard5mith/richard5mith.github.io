@@ -11,7 +11,6 @@ paginate: 10
 highlighter: rouge
 plugins: 
   - jekyll-feed
-  - jekyll-paginate
 timezone: Europe/London
 paginateLabel: page
 paginate_path: "page/:num"
